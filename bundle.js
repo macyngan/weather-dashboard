@@ -43267,7 +43267,7 @@ var GoogleMap = function (_Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       new google.maps.Map(this.refs.map, {
-        zoon: 12,
+        zoom: 12,
         center: {
           lat: this.props.lat,
           lng: this.props.lon
