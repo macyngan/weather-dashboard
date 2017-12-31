@@ -2599,7 +2599,7 @@ var _axios2 = _interopRequireDefault(_axios);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var API_KEY = '144cc25da82981aa3125452988ae8658';
-var ROOT_URL = 'https://samples.openweathermap.org/data/2.5/forecast?&appid=' + API_KEY;
+var ROOT_URL = 'https://crossorigin.me/http://samples.openweathermap.org/data/2.5/forecast?&appid=' + API_KEY;
 
 var FETCH_WEATHER = exports.FETCH_WEATHER = 'FETCH_WEATHER';
 
