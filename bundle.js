@@ -2599,12 +2599,13 @@ var _axios2 = _interopRequireDefault(_axios);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var API_KEY = '144cc25da82981aa3125452988ae8658';
-var ROOT_URL = 'https://crossorigin.me/http://samples.openweathermap.org/data/2.5/forecast?&appid=' + API_KEY;
+var ROOT_URL = '//samples.openweathermap.org/data/2.5/forecast?&appid=' + API_KEY;
 
 var FETCH_WEATHER = exports.FETCH_WEATHER = 'FETCH_WEATHER';
 
 function fetchWeather(city) {
   var url = ROOT_URL + '&q=' + city + ',us';
+  console.log('=== url: ', url);
   var request = _axios2.default.get(url);
 
   return {
